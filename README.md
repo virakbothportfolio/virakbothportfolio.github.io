@@ -1,2 +1,0 @@
-# virakbothportfolio
-Virakboth's Portfolio
