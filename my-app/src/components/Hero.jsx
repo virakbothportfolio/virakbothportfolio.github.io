@@ -11,8 +11,8 @@ const Hero = () => {
           <h1 className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-600 text-9xl font-bold m-[20px]">
             Virakboth
           </h1>
-          <p className="text-xl">
-            A passionate Web Developer specializing in creating amazing user experiences.
+          <p className="text-2xl">
+            A passionate cambodian Front-End Developer that studied web development since 2023
           </p>
         </div>
       </div>
