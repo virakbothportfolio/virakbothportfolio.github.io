@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => {
   const projects = [
-    { name: 'Project 1', description: 'Description of project 1.' },
+    { name: 'Cybersecurity Website', description: 'A School Project for SnoopEdu Education' },
     { name: 'Project 2', description: 'Description of project 2.' },
   ];
 
