@@ -8,7 +8,7 @@ import './index.css';
 
 export default function App() {
   return (
-    <div className="text-gray-800">
+    <div className="text-gray-800 bg-bg">
       <Hero />
       <About />
       <Projects />

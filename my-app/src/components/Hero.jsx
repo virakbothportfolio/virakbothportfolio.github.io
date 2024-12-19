@@ -4,16 +4,16 @@ import face from '../assets/images/virakboth.png';
 const Hero = () => {
   return (
     <section>
-      <div className="text-black text-center">
-        <div className="m-[150px]">
+      <div className="text-black text-center p-40">
+        <div>
           <div className="flex items-center justify-center animate-bounce">
             <img
             src={face}
             alt="Virakboth's Face" 
-            className="h-[500px] rounded-full border-4 border-gray-200 shadow-lg object-cover"
+            className="h-[400px] rounded-full border-4 border-gray-200 shadow-lg object-cover"
             />
           </div>
-          <div className="">
+          <div>
             <h1 className="inline-block text-9xl font-bold">
               Hello, I'm
             </h1>

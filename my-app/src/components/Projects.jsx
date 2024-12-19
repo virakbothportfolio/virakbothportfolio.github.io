@@ -7,7 +7,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-200">
+    <section id="projects" className="p-80">
       <div className="container mx-auto">
         <h2 className="text-5xl text-center font-bold mb-6">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
