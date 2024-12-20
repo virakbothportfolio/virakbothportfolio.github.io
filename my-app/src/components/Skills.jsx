@@ -42,7 +42,7 @@ const Skills = () => {
             {skills.map((skill, index) => (
               <li
                 key={index}
-                className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-blue-600 text-white rounded-md text-center hover:shadow-xl hover:p-5 duration-500"
+                className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-blue-600 text-white rounded-md text-center hover:shadow-xl hover:p-10 duration-500"
               >
                 <h3 className="font-semibold text-3xl mb-2">{skill.name}</h3>
                 <div className="relative pt-1">

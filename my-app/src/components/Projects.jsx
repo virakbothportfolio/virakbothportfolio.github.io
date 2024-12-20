@@ -14,7 +14,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="p-4 bg-white shadow-md rounded-md"
+              className="p-4 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
             >
               <h3 className="text-3xl font-bold mb-[50px]">{project.name}</h3>
               <p className="text-xl">{project.description}</p>
