@@ -28,4 +28,8 @@
     @apply underline;
     @apply hover:text-blue-600;
   }
+
+  .certificate-i {
+    @apply p-5;
+  }
 }

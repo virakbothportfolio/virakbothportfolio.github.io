@@ -5,6 +5,7 @@ import Journey from './components/Journey';
 import Schools from './components/Schools';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Certs from './components/Certs';
 import Contact from './components/Contact';
 import './index.css';
 import './styles/tailwind.css'
@@ -18,6 +19,7 @@ export default function App() {
       <Schools />
       <Projects />
       <Skills />
+      <Certs />
       <Contact />
     </div>
   );
