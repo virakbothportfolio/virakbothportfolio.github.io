@@ -8,7 +8,6 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Certs from './components/Certs';
 import Contact from './components/Contact';
-import CSCerts from './components/CSCerts';
 import './index.css';
 import './styles/tailwind.css';
 
@@ -29,7 +28,6 @@ export default function App() {
               <Contact />
             </>
           } />
-          <Route path="/cscerts" element={<CSCerts />} />
         </Routes>
       </div>
     </Router>
