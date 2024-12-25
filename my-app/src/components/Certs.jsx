@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { csx, css, csp, jhu, m1, m2, m3, m4, m5, m6, m7, m8, cc, p1, p2, p3 } from '../assets/certs';
+import { csx, css, csp, jhu, m1, m2, m3, m4, m5, m6, m7, m8, cc, p1, p2, p3, hks, hkse } from '../assets/certs';
 import Certificate from './Certificate';
 
 const Certs = () => {
@@ -29,6 +29,8 @@ const Certs = () => {
     { image: p1, url: 'https://www.coursera.org/account/accomplishments/certificate/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
     { image: p2, url: 'https://www.coursera.org/account/accomplishments/certificate/Z47RD2HY9PYR', altText: 'UOM Python Data Certificate' },
     { image: p3, url: 'https://www.coursera.org/account/accomplishments/certificate/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },
+    { image: hks, url: 'https://www.coursera.org/account/accomplishments/certificate/YHEPBKM5P9UU', altText: 'HKU Scratch Certificate' },
+    { image: hkse, url: 'https://www.coursera.org/account/accomplishments/certificate/GTPPJ35GF7JI', altText: 'HKU Software Engineer Certificate' },
   ];
 
   // Render certificates based on active category

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaJs } from "react-icons/fa";
-import { SiHtml5, SiCss3, SiScratch, SiPython } from "react-icons/si";
+import { SiHtml5, SiCss3, SiScratch, SiPython, SiReact } from "react-icons/si";
 
 const Projects = () => {
   return (
@@ -21,8 +21,7 @@ const Projects = () => {
           <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
             <h3 className="text-3xl font-bold mb-[50px]">Algorithmics</h3>
             <p className="text-xl flex items-center">
-              Learned: <SiScratch />
-              <SiPython />
+              Learned: <SiScratch /><SiPython />
             </p>
             <p className="text-xl">My First Course related to Coding</p>
             <a
@@ -30,6 +29,25 @@ const Projects = () => {
               className="font-bold text-b"
             >
               Their Website
+            </a>
+          </div>
+          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+            <h3 className="text-3xl font-bold mb-[50px]">Coursera Courses</h3>
+            <p className="text-xl flex items-center">
+              Learned: <SiHtml5 /><SiCss3 /><FaJs /><SiReact /><SiScratch /><SiPython />
+            </p>
+            <p className="text-xl">Some Various Coursera Courses, like Meta Front-End & Python for Everybody</p>
+            <a
+              href="https://algorithmicschool.com"
+              className="font-bold text-b"
+            >
+              Meta Front-End Course
+            </a>
+            <a
+              href="https://algorithmicschool.com"
+              className="font-bold text-b"
+            >
+              Python for Everybody Course
             </a>
           </div>
         </div>

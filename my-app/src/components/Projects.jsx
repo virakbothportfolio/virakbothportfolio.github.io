@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaJs } from 'react-icons/fa';
-import { SiHtml5, SiCss3, SiTailwindcss, SiReact } from "react-icons/si";
+import { SiScratch, SiHtml5, SiCss3, SiTailwindcss, SiReact } from "react-icons/si";
 
 const Schools = () => {
 
@@ -26,6 +26,15 @@ const Schools = () => {
                 Technologies used: <SiReact /><SiCss3 /><SiTailwindcss />
               </p>
               <p className="text-xl">This very website is one of my projects, too!</p>
+            </div>
+            <div
+              className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
+            >
+              <h3 className="text-3xl font-bold mb-[50px]">Various Scratch Projects</h3>
+              <p className="text-xl flex items-center">
+                Technologies used: <SiScratch />
+              </p>
+              <p className="text-xl">Probably one of my first Coding Projects, Made during my study at <b>CS50S</b> & <b>Algorithmics</b></p>
             </div>
         </div>
       </div>
