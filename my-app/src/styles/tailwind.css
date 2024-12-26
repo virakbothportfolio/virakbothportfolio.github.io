@@ -29,6 +29,7 @@
     @apply text-blue-500;
     @apply underline;
     @apply hover:text-blue-600;
+    @apply block;
   }
 
   .certificate-i {

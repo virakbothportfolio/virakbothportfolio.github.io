@@ -17,6 +17,12 @@ const Schools = () => {
                 Technologies used: <SiHtml5 /><SiCss3 /><FaJs />
               </p>
               <p className="text-xl">A School Project I developed with my classmates</p>
+              <a
+              href="https://bothsecurity.github.io"
+              className="font-bold text-b"
+              >
+              Visit Here
+              </a>
             </div>
             <div
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
@@ -35,6 +41,12 @@ const Schools = () => {
                 Technologies used: <SiScratch />
               </p>
               <p className="text-xl">Probably one of my first Coding Projects, Made during my study at <b>CS50S</b> & <b>Algorithmics</b></p>
+              <a
+              href="https://scratch.mit.edu/projects/787673812/"
+              className="font-bold text-b"
+              >
+              Solar System Clicker
+              </a>
             </div>
         </div>
       </div>

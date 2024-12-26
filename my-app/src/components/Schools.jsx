@@ -38,16 +38,47 @@ const Projects = () => {
             </p>
             <p className="text-xl">Some Various Coursera Courses, like Meta Front-End & Python for Everybody</p>
             <a
-              href="https://algorithmicschool.com"
+              href="https://coursera.org"
+              className="font-bold text-b"
+            >
+              Coursera
+            </a>
+            <a
+              href="https://www.coursera.org/professional-certificates/meta-front-end-developer"
               className="font-bold text-b"
             >
               Meta Front-End Course
             </a>
             <a
-              href="https://algorithmicschool.com"
+              href="https://www.coursera.org/specializations/python"
               className="font-bold text-b"
             >
               Python for Everybody Course
+            </a>
+          </div>
+          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+            <h3 className="text-3xl font-bold mb-[50px]">CS50 Courses</h3>
+            <p className="text-xl flex items-center">
+              Learned: <SiHtml5 /><SiCss3 /><FaJs /><SiScratch /><SiPython /> <b>C</b>
+            </p>
+            <p className="text-xl">This Course is a bit more challenging</p>
+            <a
+              href="https://cs50.harvard.edu/x"
+              className="font-bold text-b"
+            >
+              CS50x
+            </a>
+            <a
+              href="https://cs50.harvard.edu/scratch"
+              className="font-bold text-b"
+            >
+              CS50 Scratch
+            </a>
+            <a
+              href="https://cs50.harvard.edu/python"
+              className="font-bold text-b"
+            >
+              CS50 Python
             </a>
           </div>
         </div>
