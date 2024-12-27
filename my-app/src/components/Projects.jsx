@@ -12,7 +12,12 @@ const Schools = () => {
             <div
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
             >
-              <h3 className="text-3xl font-bold mb-[50px]">Cybersecurity Website</h3>
+              <div className="mb-[50px]">
+                <h3 className="text-3xl font-bold">Cybersecurity Website</h3>
+                <p className="text-xl text-gray-400">
+                  <em>at SnoopEdu</em>
+                </p>
+              </div>
               <p className="text-xl flex items-center">
                 Technologies used: <SiHtml5 /><SiCss3 /><FaJs />
               </p>
@@ -27,7 +32,12 @@ const Schools = () => {
             <div
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
             >
-              <h3 className="text-3xl font-bold mb-[50px]">This Portfolio</h3>
+              <div className="mb-[50px]">
+                <h3 className="text-3xl font-bold">This Portfolio</h3>
+                <p className="text-xl text-gray-400">
+                  <em>at my house</em>
+                </p>
+              </div>
               <p className="text-xl flex items-center">
                 Technologies used: <SiReact /><SiCss3 /><SiTailwindcss />
               </p>

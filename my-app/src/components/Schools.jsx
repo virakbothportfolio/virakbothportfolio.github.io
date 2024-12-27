@@ -81,6 +81,19 @@ const Projects = () => {
               CS50 Python
             </a>
           </div>
+          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+            <h3 className="text-3xl font-bold mb-[50px]">CodeCombat</h3>
+            <p className="text-xl flex items-center">
+              Learned: <SiPython />
+            </p>
+            <p className="text-xl">CodeCombat is probably the most fun I had learning coding</p>
+            <a
+              href="https://codecombat.com"
+              className="font-bold text-b"
+            >
+              Their Website
+            </a>
+          </div>
         </div>
       </div>
     </section>

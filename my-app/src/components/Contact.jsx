@@ -24,7 +24,7 @@ const Contact = () => {
             <FaFacebook className="w-10 h-10" />
           </a>
           <a
-            href="https://github.com/VirakbothSoth"
+            href="https://www.linkedin.com/in/virakboth-soth-b1b2b8306/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-cyan-700 transition-colors"
