@@ -11,7 +11,7 @@ const Journey = () => {
           my love for coding.
         </p>
         <p className="py-10">
-          After I was <b>thirteen years old</b>, I started to learn basic C and later studying <b>HTML, CSS, & JS</b>
+          After I was <b>thirteen years old</b>, I started to learn basic <b>C</b> and later studying <b>HTML, CSS, & JS</b>
         </p>
         <p>
           then after I am <b>forteen years old</b>, I studied <b>React</b> leading to now

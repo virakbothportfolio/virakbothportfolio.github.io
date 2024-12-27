@@ -1,5 +1,6 @@
 import React from 'react';
 import face from '../assets/images/virakboth.png';
+import { FaArrowDown } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -23,6 +24,11 @@ const Hero = () => {
           </div>
           <p>
             A passionate cambodian Front-End Developer that studied web development since 2023
+          </p>
+          <p
+            id="ScrollDown"
+          >
+            Scroll Down <FaArrowDown /><FaArrowDown />
           </p>
         </div>
       </div>
