@@ -46,11 +46,16 @@ const Schools = () => {
             <div
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
             >
-              <h3 className="text-3xl font-bold mb-[50px]">Various Scratch Projects</h3>
+              <div className="mb-[50px]">
+                <h3 className="text-3xl font-bold">Various Scratch Projects</h3>
+                <p className="text-xl text-gray-400">
+                  <em>at CS50S, Algorithmics</em>
+                </p>
+              </div>
               <p className="text-xl flex items-center">
                 Technologies used: <SiScratch />
               </p>
-              <p className="text-xl">Probably one of my first Coding Projects, Made during my study at <b>CS50S</b> & <b>Algorithmics</b></p>
+              <p className="text-xl">Probably one of my first Coding Projects, some were made for fun & some were just school projects</p>
               <a
               href="https://scratch.mit.edu/projects/787673812/"
               className="font-bold text-b"

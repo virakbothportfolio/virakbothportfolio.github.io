@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCodewars, SiTelegram } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-black transition-colors"
           >
-            <FaGithub className="w-10 h-10" />
+            <SiGithub className="w-10 h-10" />
           </a>
           <a
             href="https://facebook.com/VirakbothSothSam"
@@ -21,7 +21,15 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-blue-600 transition-colors"
           >
-            <FaFacebook className="w-10 h-10" />
+            <SiFacebook className="w-10 h-10" />
+          </a>
+          <a
+            href="https://t.me/VirakbothSoth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-blue-400 transition-colors"
+          >
+            <SiTelegram className="w-10 h-10" />
           </a>
           <a
             href="https://www.linkedin.com/in/virakboth-soth-b1b2b8306/"
@@ -29,7 +37,31 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-cyan-700 transition-colors"
           >
-            <FaLinkedin className="w-10 h-10" />
+            <SiLinkedin className="w-10 h-10" />
+          </a>
+          <a
+            href="https://leetcode.com/u/VirakbothSoth/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-yellow-500 transition-colors"
+          >
+            <SiLeetcode className="w-10 h-10" />
+          </a>
+          <a
+            href="https://www.hackerrank.com/profile/virakbothsoth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-black transition-colors"
+          >
+            <SiHackerrank className="w-10 h-10" />
+          </a>
+          <a
+            href="https://www.codewars.com/users/VirakbothSoth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-red-400 transition-colors"
+          >
+            <SiCodewars className="w-10 h-10" />
           </a>
         </div>
         <p className="mt-8">
