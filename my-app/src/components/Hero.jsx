@@ -1,5 +1,5 @@
 import React from 'react';
-import face from '../assets/images/virakboth.png';
+import face from '../assets/images/virakboth.jpg';
 import { FaArrowDown } from "react-icons/fa6";
 
 const Hero = () => {
