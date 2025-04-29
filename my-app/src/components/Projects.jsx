@@ -5,7 +5,7 @@ import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDja
 const Schools = () => {
 
   return (
-    <section className="p-80">
+    <section className="p-40">
       <div className="container mx-auto">
         <h2 className="font-bold mb-6">Projects</h2>
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">
