@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCodewars, SiTelegram } from "react-icons/si";
+import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCodewars, SiTelegram, SiFreecodecamp } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -62,6 +62,14 @@ const Contact = () => {
             className="text-gray-600 hover:text-red-400 transition-colors"
           >
             <SiCodewars className="w-10 h-10" />
+          </a>
+          <a
+            href="https://https://www.freecodecamp.org/virakboth_soth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-black transition-colors"
+          >
+            <SiFreecodecamp className="w-10 h-10" />
           </a>
         </div>
         <p className="mt-8">

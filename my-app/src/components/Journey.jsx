@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 
 const Journey = () => {
   return (
@@ -7,14 +6,14 @@ const Journey = () => {
       <div className="container mx-auto">
         <h2 className="font-bold mb-6">My Journey to Coding</h2>
         <p>
-          My first journey to coding was when I was a <b>twelve year old</b> taking Scratch & Python classes, beginning
-          my love for coding.
+          My first journey to coding was when I was a <b>twelve year old</b> taking <b>Scratch & Python</b> classes, beginning
+          my coding journey.
         </p>
         <p className="py-10">
-          After I was <b>thirteen years old</b>, I started to learn basic <b>C</b> and later studying <b>HTML, CSS, & JS</b>
+          After I was <b>thirteen years old</b>, I started to learn basic <b>HTML, CSS, & JS</b> on various online courses.
         </p>
         <p>
-          then after I am <b>forteen years old</b>, I studied <b>React</b> leading to now
+          then after I am <b>forteen years old</b>, I studied some <b>React, Tailwind, Django & Java</b> leading to now.
         </p>
       </div>
     </section>

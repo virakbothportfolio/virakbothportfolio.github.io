@@ -24,13 +24,13 @@ const Certs = () => {
     { image: f6, url: 'https://www.coursera.org/account/accomplishments/certificate/QNQLDDB6CYAT', altText: 'Meta UX UI Certificate' },
     { image: f7, url: 'https://www.coursera.org/account/accomplishments/certificate/MGPD0EVNC2FY', altText: 'Meta Front-End Capstone Certificate' },
 
-    { image: b1, url: 'https://www.coursera.org/account/accomplishments/certificate/MMU2WMZEKWOA', altText: 'Meta Back-End Intro Certificate' },
-    { image: b2, url: 'https://www.coursera.org/account/accomplishments/certificate/LO2FMY48V1BX', altText: 'Meta Python Certificate' },
-    { image: b3, url: 'https://www.coursera.org/account/accomplishments/certificate/QVJ03ZPZPJWJ !', altText: 'Meta Intro to Databases Certificate' },
-    { image: b4, url: 'https://www.coursera.org/account/accomplishments/certificate/K638QW9RHVZT !', altText: 'Meta Django Certificate' },
-    { image: b5, url: 'https://www.coursera.org/account/accomplishments/certificate/KEFAZVT628EP !', altText: 'Meta API Certificate' },
-    { image: b6, url: 'https://www.coursera.org/account/accomplishments/certificate/T5QTGTRCRD35 !', altText: 'Meta Full Stack Certificate' },
-    { image: b7, url: 'https://www.coursera.org/account/accomplishments/certificate/QDB61GFOAD5W !', altText: 'Meta Back-End Capstone Certificate' },
+    { image: b1, url: 'https://www.coursera.org/account/accomplishments/certificate/ACCBKW4XQTWK', altText: 'Meta Back-End Intro Certificate' },
+    { image: b2, url: 'https://www.coursera.org/account/accomplishments/certificate/76NFVZC1XF3E', altText: 'Meta Python Certificate' },
+    { image: b3, url: 'https://www.coursera.org/account/accomplishments/certificate/QVJ03ZPZPJWJ', altText: 'Meta Intro to Databases Certificate' },
+    { image: b4, url: 'https://www.coursera.org/account/accomplishments/certificate/K638QW9RHVZT', altText: 'Meta Django Certificate' },
+    { image: b5, url: 'https://www.coursera.org/account/accomplishments/certificate/KEFAZVT628EP', altText: 'Meta API Certificate' },
+    { image: b6, url: 'https://www.coursera.org/account/accomplishments/certificate/T5QTGTRCRD35', altText: 'Meta Full Stack Certificate' },
+    { image: b7, url: 'https://www.coursera.org/account/accomplishments/certificate/QDB61GFOAD5W', altText: 'Meta Back-End Capstone Certificate' },
 
     { image: iv, url: 'https://www.coursera.org/account/accomplishments/certificate/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: ve, url: 'https://www.coursera.org/account/accomplishments/certificate/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
@@ -81,7 +81,7 @@ const Certs = () => {
   return (
     <section className="p-80">
       <div className="container mx-auto">
-        <h2 className="font-bold mb-6">Certificates</h2>
+        <h2 className="font-bold mb-6">Certificates (33)</h2>
         {/* Buttons to switch categories */}
         <div className="flex space-x-4 mb-6 justify-center">
           <button
@@ -97,7 +97,7 @@ const Certs = () => {
             Website Development
           </button>
           <button
-            className={`px-4 py-2 rounded ${activeCategory === 'ai' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'}`}
+            className={`px-4 py-2 rounded inline ${activeCategory === 'ai' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'}`}
             onClick={() => setActiveCategory('ai')}
           >
             AI
