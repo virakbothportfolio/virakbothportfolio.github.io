@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { csx, css, csp, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, iv, ve, ud, dc, cc, p1, p2, p3, hks, hkse } from '../assets/certs';
+import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, iv, ve, ud, dc, cc, p1, p2, p3, hks, hkse } from '../assets/certs';
 import Certificate from './Certificate';
 
 const Certs = () => {
@@ -10,6 +10,7 @@ const Certs = () => {
     { image: csx, url: 'https://cs50.harvard.edu/certificates/9d966695-a4b6-4154-9952-52e4d2efa692', altText: 'CS50x Certificate' },
     { image: css, url: 'https://cs50.harvard.edu/certificates/a06a26e2-64e9-438a-8666-977af8d062ed', altText: 'CS50S Certificate' },
     { image: csp, url: 'https://cs50.harvard.edu/certificates/7226859c-c657-4563-b9c8-99f4873114f6', altText: 'CS50P Certificate' },
+    { image: csw, url: 'https://cs50.harvard.edu/certificates/bad7e1c0-84e5-40f5-a565-77ed246e9490', altText: 'CS50W Certificate' },
   ];
 
   const webCerts = [

@@ -1,7 +1,8 @@
 // ../assets/certs/index.js
-export { default as csx } from './cs50.png';
-export { default as css } from './cs50s.png';
-export { default as csp } from './cs50p.png';
+export { default as csx } from './cs50.jpg';
+export { default as csp } from './cs50p.jpg';
+export { default as css } from './cs50s.jpg';
+export { default as csw } from './cs50w.jpg';
 
 
 // John Hopkins + Specializations
