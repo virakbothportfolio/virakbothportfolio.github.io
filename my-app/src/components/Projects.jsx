@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaJs } from 'react-icons/fa';
 import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango } from "react-icons/si";
 
 const Schools = () => {
@@ -19,7 +18,7 @@ const Schools = () => {
                 </p>
               </div>
               <p className="text-xl flex items-center">
-                Technologies used: <SiHtml5 /><SiCss3 /><FaJs />
+                Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript />
               </p>
               <p className="text-xl">A School Project I developed with my classmates</p>
               <a
@@ -33,9 +32,29 @@ const Schools = () => {
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
             >
               <div className="mb-[50px]">
+                <h3 className="text-3xl font-bold">Password Generator</h3>
+                <p className="text-xl text-gray-400">
+                  <em>at home</em>
+                </p>
+              </div>
+              <p className="text-xl flex items-center">
+                Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript />
+              </p>
+              <p className="text-xl">A simple password generator website, nothing else</p>
+              <a
+              href="https://github.com/VirakbothSoth/Virakboths-Passgen/tree/main"
+              className="font-bold text-b"
+              >
+              Visit Here (Github)
+              </a>
+            </div>
+            <div
+              className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
+            >
+              <div className="mb-[50px]">
                 <h3 className="text-3xl font-bold">This Portfolio</h3>
                 <p className="text-xl text-gray-400">
-                  <em>at my house</em>
+                  <em>at home</em>
                 </p>
               </div>
               <p className="text-xl flex items-center">
@@ -80,7 +99,7 @@ const Schools = () => {
               href="https://github.com/VirakbothSoth/linkshortener"
               className="font-bold text-b"
               >
-              Link Shortener
+              Visit Here (Github)
               </a>
             </div>
         </div>
