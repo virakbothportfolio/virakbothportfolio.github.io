@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, iv, ve, ud, dc, cc, p1, p2, p3, hks, hkse } from '../assets/certs';
+import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, iv, ve, ib_be, ib_js ud, dc, cc, p1, p2, p3, hks, hkse } from '../assets/certs';
 import Certificate from './Certificate';
 
 const Certs = () => {
@@ -35,6 +35,9 @@ const Certs = () => {
 
     { image: iv, url: 'https://www.coursera.org/account/accomplishments/certificate/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: ve, url: 'https://www.coursera.org/account/accomplishments/certificate/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
+
+    { image: ib_js, url: 'https://www.coursera.org/account/accomplishments/certificate/YFSJZECZWFAG', altText: 'IBM Javascript Essentials Certificate' },
+    { image: ib_be, url: 'https://www.coursera.org/account/accomplishments/certificate/S7O0PT89GJNY', altText: 'IBM Back-End Apps with Node & Express Certificate' },
 
     { image: jhu, url: 'https://www.coursera.org/account/accomplishments/certificate/8DILH4N0ABM6', altText: 'JHU Web Dev Certificate' },
   ];
@@ -82,7 +85,7 @@ const Certs = () => {
   return (
     <section className="p-80">
       <div className="container mx-auto">
-        <h2 className="font-bold mb-6">Certificates (33)</h2>
+        <h2 className="font-bold mb-6">Certificates (36)</h2>
         {/* Buttons to switch categories */}
         <div className="flex space-x-4 mb-6 justify-center">
           <button

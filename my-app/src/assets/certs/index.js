@@ -28,6 +28,9 @@ export { default as b7 } from './b7.jpg';
 // Meta Neutral
 export { default as iv } from './iv.jpg';
 export { default as ve } from './ve.jpg';
+// IBM Certificates
+export { default as ib_be } from './ibm_bckend.jpg';
+export { default as ib_js } from './ibm_js.jpg';
 // Cisco Certificates
 export { default as dc } from './dc.jpg';
 export { default as ud } from './ud.jpg';
