@@ -114,6 +114,26 @@ const Schools = () => {
               Github Repo
               </a>
             </div>
+            <div
+              className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
+            >
+              <div className="mb-[50px]">
+                <h3 className="text-3xl font-bold">Link Shortener</h3>
+                <p className="text-xl text-gray-400">
+                  <em>at CS50W</em>
+                </p>
+              </div>
+              <p className="text-xl flex items-center">
+                Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript /><SiDjango />
+              </p>
+              <p className="text-xl">A simple link shortener app submitted to CS50W</p>
+              <a
+              href="https://github.com/VirakbothSoth/linkshortener"
+              className="font-bold text-b"
+              >
+              Github Repo
+              </a>
+            </div>
         </div>
       </div>
     </section>
